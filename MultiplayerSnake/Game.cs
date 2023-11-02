@@ -40,13 +40,13 @@ public class Game
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("Don't touch the border or another snake!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
         Console.ForegroundColor = ConsoleColor.Gray;
-        //Thread.Sleep(5000);
+        Thread.Sleep(5000);
         Console.Write("Game will begin in 3");
-        //Thread.Sleep(1000);
+        Thread.Sleep(1000);
         Console.Write("\rGame will begin in 2");
-        //Thread.Sleep(1000);
+        Thread.Sleep(1000);
         Console.Write("\rGame will begin in 1");
-        //Thread.Sleep(1000);
+        Thread.Sleep(1000);
 
         Renderer.Init(); // Init renderer
         for (int i = 0; i < 30; i ++)
